@@ -56,4 +56,5 @@ Rails.application.routes.draw do
   get "/posts/:id", to: 'posts#show'
   get "/posts", to: 'posts#index'
   get "/authors/:id", to: 'authors#show'
+  get '/authors', to: 'authors/index'
 end
