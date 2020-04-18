@@ -54,5 +54,6 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   get "/posts/:id", to: 'posts#show'
+  get "/posts", to: 'posts#index'
   get "/authors/:id", to: 'authors#show'
 end
