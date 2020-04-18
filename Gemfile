@@ -36,7 +36,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'pry-byebug'
   gem 'annotate'
-  gem 'faker', '~> 1.4.3'
+  gem 'faker', '~> 2.0'
 end
 
 group :development do
